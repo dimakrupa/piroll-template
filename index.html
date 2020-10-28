@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piroll - portfolio template</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Nunito+Sans&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/slick-theme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <nav class="nav" id="menu">
+                <div class="nav-logo">
+                    <a href="#"><img src="./img/logo/logo.png" alt="logo" height="25"></a>
+                </div>
+
+                <ul class="nav-list">
+                    <li class="nav-list__item"><a class="nav-list__link active-menu-item" href="#">home</a></li>
+                    <li class="nav-list__item"><a class="nav-list__link" href="#">about</a></li>
+                    <li class="nav-list__item"><a class="nav-list__link" href="#">work</a></li>
+                    <li class="nav-list__item"><a class="nav-list__link" href="#">process</a></li>
+                    <li class="nav-list__item"><a class="nav-list__link" href="#">services</a></li>
+                    <li class="nav-list__item"><a class="nav-list__link" href="#">testimonials</a></li>
+                    <li class="nav-list__item"><a class="nav-list__link" href="#">contact</a></li>
+                </ul>
+
+                <div id="nav-menu-toggle" class="nav-burger-menu">
+                    <div class="nav-menu-icon-line">
+                    </div>
+                </div>
+
+                <!-- Мобильная навигация -->
+                <div id="mobile-nav" class="mobile-nav">
+                    <ul class="mobile-nav__list">
+                        <li class="mobile-nav-list__item"><a href="#" class="mobile-nav__link">home</a></li>
+                        <li class="mobile-nav-list__item"><a href="#" class="mobile-nav__link">about</a></li>
+                        <li class="mobile-nav-list__item"><a href="#" class="mobile-nav__link">work</a></li>
+                        <li class="mobile-nav-list__item"><a href="#" class="mobile-nav__link">process</a></li>
+                        <li class="mobile-nav-list__item"><a href="#" class="mobile-nav__link">services</a></li>
+                        <li class="mobile-nav-list__item"><a href="#" class="mobile-nav__link">testimonials</a></li>
+                        <li class="mobile-nav-list__item"><a href="#" class="mobile-nav__link">contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+
+            <div class="header-title-wrap">
+                <div class="header-title-block">
+                    <div class="header-title">
+                        <h1 class="header-title-text">We Design and Develop</h1>
+                    </div>
+
+                    <div class="header-desc">
+                        <p class="header-desc-text">
+                            We are a new design studio based in USA. We have over
+                            20 years of combined experience, and know a thing or two
+                            about designing websites and mobile apps.
+                        </p>
+                    </div>
+
+                    <a href="#" class="button" id="header-btn">contact us</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="about-us">
+        <div class="container">
+            <div class="about-us-wrap">
+                <div class="about-us-content-wrap">
+                    <div>
+                        <h2 class="section-title">About Us</h2>
+                        <div class="section-text">
+                            <p>Divide have don't man wherein air fourth. Own itself make have night won't make.
+                                A you under Seed appear which good give. Own give air without fowl moveth dry first
+                                heaven fruit, dominion she'd won't very all.</p>
+                        </div>
+
+                        <div class="about-us-sign">
+                            <img src="./img/sign.png" alt="sign">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section class="skills">
+        <div class="container">
+            <div class="skills-wrap">
+                <div>
+                    <h2 class="skills-title">Professional Skills</h2>
+                </div>
+
+                <div class="skills-ranges">
+                    <div class="skill-ranges-item">
+                        <p>UI/UX Design<span>75%</span></p>
+                        <progress value="75" max="100">75%</progress>
+                    </div>
+
+                    <div class="skill-ranges-item">
+                        <p>web development <span>90%</span></p>
+                        <progress value="90" max="100">90%</progress>
+                    </div>
+
+                    <div class="skill-ranges-item">
+                        <p>marketing<span>65%</span></p>
+                        <progress value="65" max="100">65%</progress>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="skills-left__bg">
+        </div>
+
+        <div class="skills-right__bg">
+        </div>
+    </section>
+
+    <section class="statistic" id="statistic-count">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-3 col-md-6 col-sm-6 col-12">
+                    <div class="statistics-item-wrap">
+                        <div class="statistics-icon">
+                            <i class="fa fa-briefcase" aria-hidden="true"></i>
+                        </div>
+                        <div class="statistics-item-text">
+                            <p class="statistics-number" data-from="0" data-to="548" data-speed="3000"
+                                data-refresh-interval="50">548</p>
+                            <p class="statistics-title">projects completed</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-md-6 col-sm-6 col-12">
+                    <div class="statistics-item-wrap">
+                        <div class="statistics-icon">
+                            <i class="fa fa-clock-o" aria-hidden="true"></i> </div>
+                        <div class="statistics-item-text">
+                            <p class="statistics-number" data-from="0" data-to="1465" data-speed="3000"
+                                data-refresh-interval="50">1465</p>
+                            <p class="statistics-title">WORKING HOURS</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-md-6 col-sm-6 col-12">
+                    <div class="statistics-item-wrap">
+                        <div class="statistics-icon">
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                        </div>
+                        <div class="statistics-item-text">
+                            <p class="statistics-number" data-from="0" data-to="612" data-speed="3000"
+                                data-refresh-interval="50">612</p>
+                            <p class="statistics-title">POSITIVE FEEDBACKS</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-md-6 col-sm-6 col-12">
+                    <div class="statistics-item-wrap">
+                        <div class="statistics-icon">
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                        </div>
+                        <div class="statistics-item-text">
+                            <p class="statistics-number" data-from="0" data-to="735" data-speed="3000"
+                                data-refresh-interval="50">735</p>
+                            <p class="statistics-title">HAPPY CLIENTS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <div class="gallery-wrap">
+            <div class="gallery-item">
+                <a href="./img/gallery/1.jpeg" data-fancybox="gallery" data-caption="Caption #1"
+                    class="gallery-work-img">
+                    <img src="./img/gallery/1.jpeg" alt="">
+                </a>
+            </div>
+
+            <div class="gallery-item">
+                <a href="./img/gallery/2.jpeg" data-fancybox="gallery" data-caption="Caption #1"
+                    class="gallery-work-img">
+                    <img src="./img/gallery/2.jpeg" alt="">
+                </a>
+            </div>
+
+            <div class="gallery-item">
+                <a href="./img/gallery/3.jpeg" data-fancybox="gallery" data-caption="Caption #1"
+                    class="gallery-work-img">
+                    <img src="./img/gallery/3.jpeg" alt="">
+                </a>
+            </div>
+
+            <div class="gallery-item">
+                <a href="./img/gallery/4.jpeg" data-fancybox="gallery" data-caption="Caption #1"
+                    class="gallery-work-img">
+                    <img src="./img/gallery/4.jpeg" alt="">
+                </a>
+            </div>
+
+            <div class="gallery-item">
+                <a href="./img/gallery/5.jpeg" data-fancybox="gallery" data-caption="Caption #1"
+                    class="gallery-work-img">
+                    <img src="./img/gallery/5.jpeg" alt="">
+                </a>
+            </div>
+
+            <div class="gallery-item">
+                <a href="./img/gallery/6.jpeg" data-fancybox="gallery" data-caption="Caption #1"
+                    class="gallery-work-img">
+                    <img src="./img/gallery/6.jpeg" alt="">
+                </a>
+            </div>
+
+            <div class="gallery-item">
+                <a href="./img/gallery/7.jpeg" data-fancybox="gallery" data-caption="Caption #1"
+                    class="gallery-work-img">
+                    <img src="./img/gallery/7.jpeg" alt="">
+                </a>
+
+            </div>
+
+            <div class="gallery-item">
+                <a href="./img/gallery/8.jpeg" data-fancybox="gallery" data-caption="Caption #1"
+                    class="gallery-work-img">
+                    <img src="./img/gallery/8.jpeg" alt="">
+                </a>
+            </div>
+        </div>
+
+        <div class="gallery-button-wrap">
+            <a href="#">
+                <div class="gallery-button">Load more work</div>
+            </a>
+        </div>
+    </section>
+
+    <section class="work-process">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-xl-6 col-lg-8 col-md-8 col-sm-12 col-12">
+                    <div>
+                        <h2 class="section-title">Our Work Process</h2>
+                    </div>
+                    <div class="section-text work-process-text">
+                        <p>Was years it seasons was there form he in in them together over that,
+                            third sixth gathered female creeping bearing behold years.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="work-process-video">
+                        <iframe width="702" height="395"
+                            src="https://www.youtube.com/embed/Ynh9rkHhxyQ?list=PLozm9SIPPqIeIR31vwI9M6M-o-swTPuLB"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+
+                        <!-- <span id="videoPlayBtn" class="work-process-video__play-btn">
+                            <i class="fa fa-play" aria-hidden="true"></i>
+                        </span> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="our-services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="our-services-item-wrap">
+                        <div class="our-services-item__icon">
+                            <i class="fa fa-diamond" aria-hidden="true"></i>
+                        </div>
+                        <div class="our-services-item__title">
+                            ui / ux design
+                        </div>
+                        <div class="our-services-item__desc">
+                            Be set fourth land god darkness
+                            make it wherein own
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="our-services-item-wrap">
+                        <div class="our-services-item__icon">
+                            <i class="fa fa-umbrella" aria-hidden="true"></i>
+                        </div>
+                        <div class="our-services-item__title">
+                            web development
+                        </div>
+                        <div class="our-services-item__desc">
+                            A she'd them bring void moving
+                            third she'd kind fill
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="our-services-item-wrap">
+                        <div class="our-services-item__icon">
+                            <i class="fa fa-mobile" aria-hidden="true"></i>
+                        </div>
+                        <div class="our-services-item__title">
+                            app / mobile
+                        </div>
+                        <div class="our-services-item__desc">
+                            Dominion man second spirit he,
+                            earth they're creeping
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="our-services-item-wrap">
+                        <div class="our-services-item__icon">
+                            <i class="fa fa-gamepad" aria-hidden="true"></i>
+                        </div>
+                        <div class="our-services-item__title">
+                            game design
+                        </div>
+                        <div class="our-services-item__desc">
+                            Morning his saying moveth it
+                            multiply appear life be
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="our-services-item-wrap">
+                        <div class="our-services-item__icon">
+                            <i class="fa fa-plane" aria-hidden="true"></i>
+                        </div>
+                        <div class="our-services-item__title">
+                            SEO / marketing
+                        </div>
+                        <div class="our-services-item__desc">
+                            Give won't after land fill creeping
+                            meat you, may
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="our-services-item-wrap">
+                        <div class="our-services-item__icon">
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                        </div>
+                        <div class="our-services-item__title">
+                            photography
+                        </div>
+                        <div class="our-services-item__desc">
+                            Creepeth one seas cattle grass
+                            give moving saw give
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="our-services-item-wrap">
+                        <div class="our-services-item__icon">
+                            <i class="fa fa-camera" aria-hidden="true"></i>
+                        </div>
+                        <div class="our-services-item__title">
+                            graphic design
+                        </div>
+                        <div class="our-services-item__desc">
+                            Open, great whales air rule for,
+                            fourth life whales
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                    <div class="our-services-item-wrap">
+                        <div class="our-services-item__icon">
+                            <i class="fa fa-paint-brush" aria-hidden="true"></i>
+                        </div>
+                        <div class="our-services-item__title">
+                            illustrations
+                        </div>
+                        <div class="our-services-item__desc">
+                            Whales likeness hath, man kind
+                            for them air two won't
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-lg-8">
+                    <div class="reviews-slider">
+                        <div class="reviews-slider-item">
+                            <div class="reviews-slider-text">
+                                <p>“ Outstanding job and exceeded all expectations. It was a pleasure
+                                    to work with them on a sizable first project and am looking
+                                    forward to start the next one asap.”</p>
+                            </div>
+
+                            <div class="reviews-slider-author">
+                                Michael Hopkins
+                            </div>
+                        </div>
+
+                        <div class="reviews-slider-item">
+                            <div class="reviews-slider-text">
+                                <p>“Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur earum aliquam
+                                    modi asperiores repellat ipsum repellendus”</p>
+                            </div>
+
+                            <div class="reviews-slider-author">
+                                Joel Hop
+                            </div>
+                        </div>
+
+                        <div class="reviews-slider-item">
+                            <div class="reviews-slider-text">
+                                <p>“Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat a
+                                    vitae eius eos totam consequuntur commodi exercitationem accusamus provident
+                                    aperiam.”</p>
+                            </div>
+
+                            <div class="reviews-slider-author">
+                                john Doe
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="brands">
+        <div class="container">
+            <div class="row d-flex justify-content-center align-items-center text-center">
+                <div class="col-xl-2 col-lg-2 col-md-5 col-sm-3 col-6">
+                    <div class="brands-item-wrapper">
+                        <img src="./img/brands/1.png" alt="brand 1">
+                    </div>
+                </div>
+
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6">
+                    <div class="brands-item-wrapper">
+                        <img src="./img/brands/2.png" alt="brand 1">
+                    </div>
+                </div>
+
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6">
+                    <div class="brands-item-wrapper">
+                        <img src="./img/brands/3.png" alt="brand 1">
+                    </div>
+                </div>
+
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6">
+                    <div class="brands-item-wrapper">
+                        <img src="./img/brands/4.png" alt="brand 1">
+                    </div>
+                </div>
+
+                <div class="col-xl-2 col-lg-3 col-md-4 col-sm-4 col-6">
+                    <div class="brands-item-wrapper">
+                        <img src="./img/brands/5.png" alt="brand 1">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-form">
+        <div class="container">
+            <div class="contact-form__text-wrap">
+                <h2 class="section-title">Need a Project?</h2>
+                <div class="section-text contact-form__text-desc">
+                    Let us know what you're looking for in an agency. We'll take a look and see
+                    if this could be the start of something beautiful.
+                </div>
+            </div>
+
+            <form class="contact-form__form">
+                <div class="form-row">
+                    <div class="col-xl-4 col-lg-6 col-md-6">
+                        <input type="text" class="form-control form-input form-input-name" placeholder="Your name">
+                    </div>
+                    <div class="col-xl-4 col-lg-6 col-md-6">
+                        <input type="email" class="form-control form-input form-input-email" placeholder="Your e-mail">
+                    </div>
+                    <div class="col-xl-8">
+                        <input type="text" class="form-control form-input form-input-title" placeholder="Your Title">
+                    </div>
+                    <div class="col-xl-8">
+                        <textarea class="form-control form-input-textarea" id="FormControlTextarea1" rows="3"
+                            placeholder="Your Comment"></textarea>
+                    </div>
+                    <div class="col-xl-8 form-button-align">
+                        <button type="submit" class="button form-button">Send message</button>
+                    </div>
+                </div>
+            </form>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-wrap">
+                <div class="footer-copyright-wrap">
+                    <p class="footer-company-name">
+                        Piroll Design, Inc.
+                    </p>
+                    <p class="footer-copyright">
+                        © 2017 Piroll. All rights reserved.
+                        Designed by robirurk.
+                    </p>
+                </div>
+
+                <div class="footer-left-col">
+                    <div class="footer-contacts">
+                        <p class="footer-contacts-email">
+                            <a href="mailto:hello@pirolltheme.com">hello@pirolltheme.com</a>
+                        </p>
+                        <p class="footer-contacts-phone">
+                            <a href="tel:+44987065908">+44 987 065 908</a>
+                        </p>
+                    </div>
+
+
+                    <div class="footer-links">
+                        <div class="footer-links-menu-wrap">
+                            <ol class="footer-links-menu">
+                                <li class="footer-links-menu__item">
+                                    <a href="#">Projects</a>
+                                </li>
+                                <li class="footer-links-menu__item">
+                                    <a href="#">About</a>
+                                </li>
+                                <li class="footer-links-menu__item">
+                                    <a href="#">Services</a>
+                                </li>
+                                <li class="footer-links-menu__item">
+                                    <a href="#">Carreer</a>
+                                </li>
+                                <li class="footer-links-menu__item">
+                                    <a href="#">News</a>
+                                </li>
+                                <li class="footer-links-menu__item">
+                                    <a href="#">Events</a>
+                                </li>
+                                <li class="footer-links-menu__item">
+                                    <a href="#">Contact</a>
+                                </li>
+                                <li class="footer-links-menu__item">
+                                    <a href="#">Legals</a>
+                                </li>
+                            </ol>
+                        </div>
+
+                        <div class="footer-links-social-wrap">
+                            <ul class="footer-links-social">
+                                <li class="footer-links-social-item">
+                                    <a href="#">Facebook</a>
+                                </li>
+                                <li class="footer-links-social-item">
+                                    <a href="#">Twitter</a>
+                                </li>
+                                <li class="footer-links-social-item">
+                                    <a href="#">Instagram</a>
+                                </li>
+                                <li class="footer-links-social-item">
+                                    <a href="#">Dribbble</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header modal-header__bg">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body modal-body__bg">
+                    <div class="contact-form__text-wrap">
+                        <h2 class="section-title">Need a Project?</h2>
+                        <div class="section-text contact-form__text-desc">
+                            Let us know what you're looking for in an agency. We'll take a look and see
+                            if this could be the start of something beautiful.
+                        </div>
+                    </div>
+
+                    <form class="contact-form__form">
+                        <div class="form-row">
+                            <div class="col-xl-4 col-lg-6 col-md-6">
+                                <input type="text" class="form-control form-input form-input-name"
+                                    placeholder="Your name">
+                            </div>
+                            <div class="col-xl-4 col-lg-6 col-md-6">
+                                <input type="email" class="form-control form-input form-input-email"
+                                    placeholder="Your e-mail">
+                            </div>
+                            <div class="col-xl-8">
+                                <input type="text" class="form-control form-input form-input-title"
+                                    placeholder="Your Title">
+                            </div>
+                            <div class="col-xl-8">
+                                <textarea class="form-control form-input-textarea" id="FormControlTextarea1" rows="3"
+                                    placeholder="Your Comment"></textarea>
+                            </div>
+                            <div class="col-xl-8 form-button-align">
+                                <button type="submit" class="button form-button">Send message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="./js/jquery.countTo.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+    <script src="https://use.fontawesome.com/660f175c48.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

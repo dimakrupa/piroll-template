@@ -1,0 +1,437 @@
+@media (max-width: 1199px) {
+    /* Footer section */
+    .footer-contacts {
+        margin-right: 100px;    
+    }
+
+    .footer-links-menu-wrap {
+        margin-right: 40px;
+    }
+
+    .footer-links-menu__item {
+        margin-right: 35px;
+    }
+}
+
+@media (max-width: 991px) {
+    /* ABOUT US section */
+    .about-us {
+        padding: 50px 0;
+    }
+
+    /* Skills section */
+    .skills {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    .skills-right__bg {
+        max-width: 44%;
+    }
+
+    .skills-left__bg {
+        max-width: 100%;
+    }
+
+    /* Gallery section */
+    .gallery-item {
+        flex-basis: 33.3%;
+        height: 250px;
+    }
+
+    .gallery-work-img::after {
+        font-size: 38px;
+    }
+
+    .gallery-button-wrap {
+        height: 80px;
+    }
+
+    .gallery-button {
+        padding-top: 32px;
+    }
+
+    /* Work process section */
+    .work-process {
+        padding: 70px 0;
+    }
+
+    .work-process-video {
+        height: 450px;
+    }
+
+    .work-process-video__play-btn {
+        top: 40%;
+        left: 44%;
+    }
+
+    /* Our services section */
+    .our-services {
+        padding: 30px 0 70px 0;
+    }
+
+    .our-services .container .row {
+        justify-content: center;
+    }
+
+    .our-services-item-wrap {
+        margin-top: 40px;
+    }
+
+    /* Reviews section */
+    .reviews {
+        padding: 100px 0 40px 0;
+    }
+
+    .reviews-slider-text {
+        font-size: 25px;
+        line-height: 1.5;
+    }    
+
+    .reviews-slider-dots {
+        margin-top: 80px;
+    }
+
+    /* Brands section */
+    .brands {
+        padding: 20px 15px 65px ;
+    }
+
+    /* Contact form section */
+    .contact-form {
+        padding: 70px 0;
+    }
+
+    /* Footer section */
+    .footer {
+        padding: 70px 0;
+    }
+
+    .footer-contacts {
+        margin-right: 40px;    
+    }
+
+    .footer-links-menu-wrap {
+        margin-right: 30px;
+    }
+
+    .footer-links-menu__item {
+        margin-right: 15px;
+    }
+
+    .footer-links-social-wrap {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .header {
+        height: 600px;
+    }
+    
+    .header-title-wrap {
+        display: flex;
+        justify-content: center;
+    }
+    .header-title-text {
+        font-size: 35px;
+        margin-top: 150px;
+    }
+
+    .header-desc-text {
+        font-size: 16px;
+    }
+
+    /* ABOUT US section */
+    .about-us {
+        padding: 50px 0;
+    }
+
+    /* Skills section */
+    .skills {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .skills-right__bg {
+        max-width: 34%;
+    }
+
+    /* Statistic section */
+    .statistic {
+        padding: 50px 0;
+    }
+
+    /* Work process section */
+    .work-process {
+        padding: 50px 0;
+    }
+
+    .work-process-video {
+        height: 330px;
+    }
+
+    .work-process-video__play-btn {
+        width: 70px;
+        height: 70px;
+        top: 38%;
+        left: 43%;
+    }
+
+    .work-process-video__play-btn i {
+        margin: 28px 28px 35px 31px;
+    }
+
+    /* Our services section */
+    .our-services {
+        padding: 40px 0 50px 0;
+    }
+
+    .our-services .container .row {
+        justify-content: center;
+    }
+
+    .our-services-item-wrap {
+        margin-top: 10px;
+    }
+
+    .our-services-item__title {
+        margin-top: 0;
+    }
+
+    /* Reviews section */
+    .reviews {
+        padding: 50px 0 40px 0;
+    }
+
+    .reviews-slider-text {
+        font-size: 18px;
+        line-height: 1.5;
+    }    
+
+    .reviews-slider-dots {
+        margin-top: 30px;
+        margin-bottom: 0;
+    }
+
+    .slick-dotted.slick-slider {
+        margin-bottom: 0;
+    }
+
+    /* Brands section */
+    .brands {
+        padding: 10px 15px 35px ;
+    }
+
+    .brands-item-wrapper {
+        margin-top: 25px;
+        margin-right: 25px;
+    }
+
+    /* Contact form section */
+    .contact-form {
+        padding: 50px 0;
+    }
+
+    /* Footer section */
+    .footer {
+        padding: 50px 0;
+    }
+
+    .footer-wrap {
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+
+    .footer-copyright-wrap {
+        display: flex;
+        width: 100%;
+        margin: 20px auto;
+        text-align: center;
+        align-items: center;
+    }
+
+    .footer-company-name {
+        flex-basis: 240px ;
+    }
+
+    .footer-left-col{
+        align-items: center;
+    }
+
+    .footer-contacts {
+        margin-right: 40px;    
+    }
+
+    .footer-links-menu-wrap {
+        margin-right: 30px;
+    }
+
+    .footer-links-menu__item {
+        margin-right: 15px;
+    }
+
+    .footer-links-social-wrap {
+        margin-right: 0;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .header {
+        height: 500px;
+    }
+
+    .header-title-text {
+        margin-top: 100px;
+        font-size: 30px;
+    }
+
+    .header-title-wrap {
+        align-items: center;
+    }
+    
+    .header-title-block {
+        text-align: center;
+    }
+
+    .section-title {
+        font-size: 25px;
+    }
+    /* ABOUT US section */
+    .about-us {
+        padding: 30px 0;
+    }
+    
+    /* Skills section */
+    .skills {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        align-items: center;
+    }
+
+    .skills-title {
+        text-align: center;
+        font-size: 25px;
+    }
+
+    .skills-right__bg {
+        display: none;
+    }
+    
+    /* Statistic section */
+    .statistics-item-wrap {
+        justify-content: center;
+    }
+
+    /* Statistic section */
+    .statistic {
+        padding: 30px 0;
+    }
+
+    /* Gallery section */
+    .gallery-item {
+        flex-basis: 50%;
+        height: 200px;
+    }
+
+    .gallery-work-img::after {
+        font-size: 28px;
+    }
+
+    /* Work process section */
+    .work-process {
+        padding: 30px 0;
+    }
+
+    .work-process-video {
+        height: 290px;
+    }
+
+    /* Our services section */
+    .our-services {
+        padding: 20px 0 30px 0;
+    }
+
+    .our-services .container .row {
+        justify-content: center;
+    }
+
+    .our-services-item-wrap {
+        margin-top: 10px;
+    }
+
+    /* Reviews section */
+    .reviews {
+        padding: 30px 0 30px 0;
+    }
+
+    .reviews-slider-text {
+        font-size: 18px;
+        line-height: 1.5;
+    }    
+
+    .reviews-slider-dots {
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+
+    /* Contact form section */
+    .contact-form {
+        padding: 30px 0;
+    }
+
+    .form-control {
+        margin-top: 20px;
+    }
+
+     /* Footer section */
+     .footer {
+        padding: 30px 0;
+    }
+
+    .footer-wrap {
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+
+    .footer-copyright-wrap {
+        display: flex;
+        width: 100%;
+        margin: 20px auto;
+        text-align: center;
+        align-items: center;
+    }
+
+    .footer-company-name {
+        flex-basis: 240px ;
+    }
+
+    .footer-left-col{
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .footer-contacts {
+        margin-right: 0;
+        text-align: center; 
+    }
+
+    .footer-links {
+        margin-top: 15px;
+    }
+
+    .footer-links-menu-wrap {
+        margin-right: 50px;
+    }
+
+    .footer-links-menu__item {
+        margin-right: 15px;
+    }
+
+    .footer-links-social-wrap {
+        margin-right: 0;
+    }
+}
